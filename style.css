@@ -1,0 +1,226 @@
+.container {
+    display: grid;
+    height: 70vh;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+.container-1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-3 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-4 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-5 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-6 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-7 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-8 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.container-9 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.default {
+    background-color:rgba(182, 177, 177) ;
+    color: rgb(68, 66, 66);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.default:hover {
+    background-color:rgba(228, 222, 222, 0.856);
+}
+.default:focus {
+    background-color:rgb(160, 160, 160);
+}
+.outline {
+    background-color: transparent;
+    color: #0d6efd;
+    border-color:#0d6efd ;
+    border-radius:5px;
+    border: 1px solid;
+    padding: 6px 10px;
+}
+.outline:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.outline:focus {
+    background-color: #89ade2;
+}
+.text {
+    background-color: transparent;
+    color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.text:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.text:focus {
+    background-color: #89ade2;
+}
+.disableShadow {
+    box-shadow: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.disabled {
+    color:rgba(228, 222, 222, 0.856) ;
+    background-color: rgb(68, 66, 66);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 6px 10px;
+}
+.text-disabled {
+    background-color: transparent;
+    color:rgba(228, 222, 222) ;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.starIcon {
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border: none;
+    gap: 3px;
+    cursor: pointer;
+}
+.endIcon {
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    border: none;
+    gap: 3px;
+    cursor: pointer;
+    }
+.-sm {
+    width: 50px;
+    height: 20px;
+    font-size: x-small;
+    text-align: center;
+    padding: 0;
+}
+.-md {
+    width: 70px;
+    height: 30px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 6px 10px;
+}
+.-lg {
+    width: 100px;
+    height: 40px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 6px 10px;
+}
+.color-default {
+    background-color:rgba(182, 177, 177) ;
+    color: rgb(68, 66, 66);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.color-primary {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.color-secondary {
+    background-color: #6a6c6e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.color-danger {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.color-default:hover{
+    background-color:rgba(228, 222, 222, 0.856);
+}
+.color-default:focus {
+    background-color:rgb(160, 160, 160);
+}
+.color-primary:hover {
+    background-color: #799ed6;
+}
+.color-primary:focus {
+    background-color: #0b3675;
+
+}
+.color-secondary:hover {
+    background-color: #abacad;
+}
+.color-secondary:focus {
+    background-color: #46494b;
+}
+.color-danger:hover {
+    background-color: rgb(165, 46, 46);
+}
+.color-danger:focus {
+    background-color: rgb(126, 6, 6);
+}
+.pie {
+    display: flex;
+    align-items: flex-end;
+}
